@@ -16,7 +16,7 @@ public class ListNode {
             str.append(temp.val).append(" -> ");
             temp = temp.next;
         }
-        str.append(" -> NULL");
+        str.append("NULL");
         return str.toString();
     }
 }
