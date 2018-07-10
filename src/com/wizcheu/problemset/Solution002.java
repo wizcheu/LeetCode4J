@@ -1,6 +1,8 @@
 package com.wizcheu.problemset;
 
 
+import com.wizcheu.problemset.common.ListNode;
+
 /**
  * @author wizcheu
  * @date 2018/07/08 15:16
@@ -47,25 +49,3 @@ public class Solution002 {
         System.out.println(st.addTwoNumbers(l11, l21).toString());
     }
 }
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-
-    @Override
-    public String toString() {
-        ListNode temp = this;
-        StringBuilder str = new StringBuilder();
-        while (temp != null) {
-            str.append(temp.val).append(" -> ");
-            temp = temp.next;
-        }
-        str.append(" -> NULL");
-        return str.toString();
-    }
-}
-
