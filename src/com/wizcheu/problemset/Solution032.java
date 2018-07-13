@@ -5,9 +5,9 @@ import java.util.*;
 /**
  * @author wizcheu
  * @date 2018/07/11 10:58
- * @see <a href=""></a>
+ * @see <a href="https://leetcode.com/problems/longest-valid-parentheses/description/">https://leetcode.com/problems/longest-valid-parentheses/description/</a>
  */
-public class Solution024 {
+public class Solution032 {
 
     // Your solution here...
     public int longestValidParentheses(String s) {
@@ -76,7 +76,7 @@ public class Solution024 {
     }
 
     public static void main(String[] args) {
-        Solution024 st = new Solution024();
+        Solution032 st = new Solution032();
         System.out.println(st.longestValidParentheses(")()(())()()("));
     }
 }
